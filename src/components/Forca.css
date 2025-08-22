@@ -1,0 +1,94 @@
+.forca {
+  margin: 2rem;
+  position: absolute;  
+}
+
+.corda {
+  position: relative;
+  height: 50px;
+  width: 8px;
+  background-color: black;
+  top: 50px;
+  left: 170px;
+}
+
+.superior {
+  position: relative;
+  height: 8px;
+  width: 90px;
+  background-color: black;
+  left: 80px;
+}
+
+.bar {
+  position: relative;
+  height: 200px;
+  width: 8px;
+  background-color: black;
+  left: 80px;
+}
+
+.base {
+  height: 8px;
+  width: 180px;
+  background-color: black;
+}
+
+.cabeca {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border: 8px solid grey;
+  border-radius: 50%;
+  top: -170px;
+  left: 150.75px;
+}
+
+.corpo {
+  position: relative;
+  height: 50px;
+  width: 10px;
+  background-color: grey;
+  top: -171px;
+  left: 169px;
+}
+
+.braco-esquerdo{
+  position: relative;
+  height: 50px;
+  width: 10px;
+  background-color: grey;
+  top: -220px;
+  left: 152px;
+  transform: rotate(40deg);
+}
+
+.braco-direito{
+  position: relative;
+  height: 50px;
+  width: 10px;
+  background-color: grey;
+  top: -270px;
+  left: 186px;
+  transform: rotate(-40deg);
+}
+
+.perna-direita{
+  position: relative;
+  height: 50px;
+  width: 10px;
+  background-color: grey;
+  top: -325px;
+  left: 182px;
+  transform: rotate(-30deg);
+}
+
+.perna-esquerda{
+  position: relative;
+  height: 50px;
+  width: 10px;
+  background-color: grey;
+  top: -275px;
+  left: 156px;
+  transform: rotate(30deg);
+}
