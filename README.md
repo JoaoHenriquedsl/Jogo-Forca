@@ -1,69 +1,27 @@
-# React + TypeScript + Vite
+# 🎯 Jogo da Forca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um jogo da forca interativo desenvolvido com React, TypeScript e Vite.
 
-Currently, two official plugins are available:
+## 🎮 [Jogar Agora](https://joaohenriquedsl.github.io/Jogo-Forca/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/React-18+-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue)
+![Vite](https://img.shields.io/badge/Vite-5+-purple)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Funcionalidades
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎯 **Jogo Clássico**: Adivinhe a palavra antes que o boneco seja completamente desenhado
+- 🎨 **Interface Moderna**: Design limpo e responsivo
+- 🏆 **Telas de Vitória/Derrota**: Feedback visual ao final de cada partida
+- 📱 **Responsivo**: Funciona perfeitamente em desktop e mobile
+- 🔄 **Reiniciar Jogo**: Comece uma nova partida quando terminar
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **React 19** - Biblioteca para interfaces de usuário
+- **TypeScript** - Superset do JavaScript com tipagem estática
+- **Vite** - Build tool moderna e rápida
+- **CSS3** - Estilização com Flexbox e Grid
+- **GitHub Pages** - Deploy e hospedagem

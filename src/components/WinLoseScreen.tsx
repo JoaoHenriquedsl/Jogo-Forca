@@ -15,17 +15,14 @@ const WinLoseScreen = ({
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       {letrasErradas.length === 6 && (
-        <div style={{ color: "red", fontSize: "2rem" }} className="loseWin">
+        <div className="loseWin">
           <div className="box">
-            <p
-              style={{
-                fontSize: "1.5rem",
-                padding: "0 20px ",
-                textAlign: "center",
-              }}
-            >
-              Você perdeu! a palavra era:
-              <br />{palavra.toUpperCase()}
+            <p>
+              Você perdeu!
+              <br />
+              A palavra era:
+              <br />
+              {palavra.toUpperCase()}
             </p>
             <a href={""}>Reiniciar</a>
           </div>
@@ -33,17 +30,12 @@ const WinLoseScreen = ({
       )}
       {letrasCorretas.length === letrasParaVitoria.length &&
         letrasParaVitoria.length !== 0 && (
-          <div style={{ color: "green", fontSize: "2rem" }} className="loseWin">
+          <div className="loseWin">
             <div className="box">
-              <p
-                style={{
-                  fontSize: "1.5rem",
-                  padding: "0 20px ",
-                  textAlign: "center",
-                }}
-              >
+              <p>
                 Você ganhou!
-                <br />{palavra.toUpperCase()}
+                <br />
+                {palavra.toUpperCase()}
               </p>
               <a href={""}>Reiniciar</a>
             </div>

@@ -17,6 +17,7 @@ function App() {
   );
   return (
     <div
+      // amazonq-ignore-next-line
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
      <WinLoseScreen letrasCorretas={letrasCorretas} letrasErradas={letrasErradas} palavra={palavra} letrasParaVitoria={letrasParaVitoria}/>
@@ -26,6 +27,7 @@ function App() {
         letrasCorretas={letrasCorretas}
       />
       <Teclado
+        // amazonq-ignore-next-line
         palavraArray={palavraArray}
         setLetrasCorretas={setLetrasCorretas}
         setLetrasErradas={setLetrasErradas}
