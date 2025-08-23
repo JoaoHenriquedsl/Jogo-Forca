@@ -24,8 +24,8 @@ const WinLoseScreen = ({
                 textAlign: "center",
               }}
             >
-              {" "}
-              Você perdeu! a palavra era {palavra}
+              Você perdeu! a palavra era:
+              <br />{palavra.toUpperCase()}
             </p>
             <a href={""}>Reiniciar</a>
           </div>
@@ -43,6 +43,7 @@ const WinLoseScreen = ({
                 }}
               >
                 Você ganhou!
+                <br />{palavra.toUpperCase()}
               </p>
               <a href={""}>Reiniciar</a>
             </div>
