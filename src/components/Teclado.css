@@ -5,8 +5,7 @@
   margin: 20px auto;
   padding: 0 10px;
   max-width: 600px;
-  justify-content: center;
-  z-index: 999;
+  z-index: 100;
 }
 
 .letra-teclado {
@@ -20,7 +19,7 @@
   min-height: 30px;
   width: 30px;
   border-radius: 8px;
-  background-color: #E2E8F0;
+  background-color: #e2e8f0;
   cursor: pointer;
   transition: all 0.2s ease;
   border: 2px solid transparent;
@@ -29,10 +28,10 @@
 }
 
 .letra-teclado:hover {
-  background-color: #CBD5E1;
+  background-color: #cbd5e1;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  border-color: #94A3B8;
+  border-color: #94a3b8;
 }
 
 .letra-teclado:active {
@@ -48,7 +47,7 @@
     padding: 0 15px;
     max-width: 100%;
   }
-  
+
   .letra-teclado {
     padding: 10px 6px;
     min-height: 40px;
@@ -62,7 +61,7 @@
     gap: 4px;
     padding: 0 10px;
   }
-  
+
   .letra-teclado {
     padding: 8px 4px;
     min-height: 35px;

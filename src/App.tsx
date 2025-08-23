@@ -4,6 +4,7 @@ import "./App.css";
 import Forca from "./components/Forca";
 import ForcaPalavra from "./components/ForcaPalavra";
 import Teclado from "./components/Teclado";
+import WinLoseScreen from "./components/WinLoseScreen";
 
 function App() {
   const palavra: string = usePalavra();
@@ -18,17 +19,7 @@ function App() {
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
-      {letrasErradas.length === 6 && (
-        <div style={{ color: "red", fontSize: "2rem" }} className="loseWin">
-          Você perdeu! a palavra era {palavra}
-        </div>
-      )}
-      {letrasCorretas.length === letrasParaVitoria.length &&
-        letrasParaVitoria.length !== 0 && (
-          <div style={{ color: "green", fontSize: "2rem" }} className="loseWin">
-            Você ganhou!
-          </div>
-        )}
+     <WinLoseScreen letrasCorretas={letrasCorretas} letrasErradas={letrasErradas} palavra={palavra} letrasParaVitoria={letrasParaVitoria}/>
       <Forca letrasErradas={letrasErradas} />
       <ForcaPalavra
         palavraArray={palavraArray}
