@@ -24,4 +24,3 @@ Um jogo da forca interativo desenvolvido com React, TypeScript e Vite.
 - **TypeScript** - Superset do JavaScript com tipagem estática
 - **Vite** - Build tool moderna e rápida
 - **CSS3** - Estilização com Flexbox e Grid
-- **GitHub Pages** - Deploy e hospedagem
